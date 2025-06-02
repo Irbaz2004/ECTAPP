@@ -48,11 +48,10 @@ const AuthPage = () => {
       <AuthCard>
         <AuthTabs>
           <AuthTab active={isLogin} onClick={() => setIsLogin(true)}>
-            Login
+            LOGIN
           </AuthTab>
           <AuthTab active={!isLogin} onClick={() => setIsLogin(false)}>
-            Sign Up
-          </AuthTab>
+SIGN UP          </AuthTab>
         </AuthTabs>
 
         <AuthForm onSubmit={handleSubmit}>
